@@ -1,0 +1,41 @@
+// mapping profile
+https://stackoverflow.com/questions/40275195/how-to-set-up-automapper-in-asp-net-core
+AutoMapper.Extension.Microsoft.DependancyInjection
+
+// docker sql server install
+https://database.guide/how-to-install-sql-server-on-a-mac/
+
+# swagger
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-5.0&tabs=visual-studio
+
+Microsoft.EntityFrameworkCore.Tools
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.Relational
+Microsoft.EntityFrameworkCore.Design
+MySql.EntityFrameworkCore
+
+Pomelo.EntityFrameworkCore.MySql   //for mySql connexion
+AutoMapper  //for map data model
+
+// dotnet ef
+dotnet ef migrations add Initial --context InstantServiceContext -o DAL/Migrations --project InstantService.API
+dotnet ef database update  --context InstantServiceContext --project InstantService.API
+---
+dotnet ef migrations add Initial --context InstantServiceContext -o DAL/Migrations --configuration Dev --project InstantService.API
+dotnet ef database update  --context InstantServiceContext --configuration Dev --project InstantService.API
+
+docker run -d --name sql_server_danick -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=reallyStrongPwd123' -p 1433:1433 mcr.microsoft.com/mssql/server
+dotnet ef database update --context DelenscioUserWebServiceContext 
+https://www.connectionstrings.com/mysql/
+https://database.guide/how-to-install-sql-server-on-a-mac/ 
+sudo npm install -g sql-cli
+mssql -u sa -p reallyStrongPwd123
+git push origin --delete feature/login
+dotnet ef dbcontext scaffold "Server=Data Source=127.0.0.1:8889;Initial Catalog=delenscioDbWUser;User Id=root;Password=root;Trusted_Connection=True;" MySql.Data.EntityFrameworkCore -c DelenscioUserWebServiceContext
+
+
+// mock Ilogger 
+https://stackoverflow.com/questions/43424095/how-to-unit-test-with-ilogger-in-asp-net-core
+
+// mock imapper
+https://www.thecodebuzz.com/unit-test-mock-automapper-asp-net-core-imapper/

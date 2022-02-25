@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstantService.API", "InstantService.API\InstantService.API.csproj", "{FE41BFF0-C3B0-401E-897E-044D654FD309}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstantService.BO", "InstantService.BO\InstantService.BO.csproj", "{80CE0840-3D03-493D-BB6D-F119D6196D49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE41BFF0-C3B0-401E-897E-044D654FD309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE41BFF0-C3B0-401E-897E-044D654FD309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE41BFF0-C3B0-401E-897E-044D654FD309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE41BFF0-C3B0-401E-897E-044D654FD309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80CE0840-3D03-493D-BB6D-F119D6196D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CE0840-3D03-493D-BB6D-F119D6196D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CE0840-3D03-493D-BB6D-F119D6196D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CE0840-3D03-493D-BB6D-F119D6196D49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C75A82B6-D17E-4BE8-A025-18CE960F6933}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+D:\Projets\GetSmarter\InstantService\InstantService.BO\bin\Debug\net6.0\InstantService.BO.deps.json
+D:\Projets\GetSmarter\InstantService\InstantService.BO\bin\Debug\net6.0\InstantService.BO.dll
+D:\Projets\GetSmarter\InstantService\InstantService.BO\bin\Debug\net6.0\InstantService.BO.pdb
+D:\Projets\GetSmarter\InstantService\InstantService.BO\obj\Debug\net6.0\InstantService.BO.csproj.AssemblyReference.cache
+D:\Projets\GetSmarter\InstantService\InstantService.BO\obj\Debug\net6.0\InstantService.BO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projets\GetSmarter\InstantService\InstantService.BO\obj\Debug\net6.0\InstantService.BO.AssemblyInfoInputs.cache
+D:\Projets\GetSmarter\InstantService\InstantService.BO\obj\Debug\net6.0\InstantService.BO.AssemblyInfo.cs
+D:\Projets\GetSmarter\InstantService\InstantService.BO\obj\Debug\net6.0\InstantService.BO.csproj.CoreCompileInputs.cache
+D:\Projets\GetSmarter\InstantService\InstantService.BO\obj\Debug\net6.0\InstantService.BO.dll
+D:\Projets\GetSmarter\InstantService\InstantService.BO\obj\Debug\net6.0\refint\InstantService.BO.dll
+D:\Projets\GetSmarter\InstantService\InstantService.BO\obj\Debug\net6.0\InstantService.BO.pdb
+D:\Projets\GetSmarter\InstantService\InstantService.BO\obj\Debug\net6.0\ref\InstantService.BO.dll
