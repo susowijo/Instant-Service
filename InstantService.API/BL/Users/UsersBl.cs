@@ -68,6 +68,7 @@ namespace InstantService.API.BL.Users
 
         #region Methode (Public)
 
+
         /// <summary>
         ///     <para>
         ///         This method sends an email to the user containing the confirmation code of his email address
@@ -403,7 +404,6 @@ namespace InstantService.API.BL.Users
             return new BaseResult<User>(BaseResultStatus.NotFound,
                 new Exception("User not found"));
         }
-
         #endregion
 
         #region Methode (Private)

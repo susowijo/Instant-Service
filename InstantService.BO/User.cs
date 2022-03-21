@@ -24,8 +24,7 @@ namespace InstantService.BO
         /// <summary>
         /// Represent the lastname of the user
         /// </summary>
-        [Required]
-        public string LastName { get; set; }
+        public string? LastName { get; set; }
 
         /// <summary>
         /// Represent the password of the user
@@ -74,8 +73,7 @@ namespace InstantService.BO
         /// <summary>
         /// Represent the date of birth of the user
         /// </summary>
-        [Required]
-        public DateTime Birthday { get; set; }
+        public DateTime? Birthday { get; set; }
 
         /// <summary>
         /// Represent the gender of the user
@@ -90,20 +88,17 @@ namespace InstantService.BO
         /// <summary>
         /// Represents the Country of the user
         /// </summary>
-        [Required]
-        public string  Country { get; set; }
+        public string?  Country { get; set; }
 
         /// <summary>
         /// Represents the City of the user
         /// </summary>
-        [Required]
-        public string  City { get; set; }
+        public string?  City { get; set; }
 
         /// <summary>
         /// Represents the Street of the user
         /// </summary>
-        [Required]
-        public string  Street { get; set; }
+        public string?  Street { get; set; }
 
         /// <summary>
         /// Represents the PostalCode of the user
@@ -113,25 +108,23 @@ namespace InstantService.BO
         /// <summary>
         /// Represents the FullAddressName of the user
         /// </summary>
-        [Required]
-        public string  FullAdressName { get; set; }
+        public string?  FullAdressName { get; set; }
 
         /// <summary>
         /// Represent id paper number.
         /// </summary>
-        public string IdPaperNumber { get; set; }
+        public string? IdPaperNumber { get; set; }
 
         /// <summary>
         /// Represent all face of id card.
         /// </summary>
-        //[Required]
-        //public Guid IdentityCardId { get; set; }
+        public Guid? IdentityCardId { get; set; }
 
         /// <summary>
         /// Represent all face of id card (in pdf).
         /// </summary>
-        //[Required]
-        //public Media IdentityCard { get; set; }
+        [Required]
+        public virtual Media? IdentityCard { get; set; }
 
         /// <summary>
         /// 
@@ -145,9 +138,9 @@ namespace InstantService.BO
         public virtual ICollection<Collection>? Collections { get; set; }
 
         /// <summary>
-        /// Represent all role for this user.
+        /// Represent all Role for this user.
         /// </summary>
-        public virtual ICollection<Role>? Roles { get; set; }
+        public virtual ICollection<UserRole>? UserRoles { get; set; }
         
         #endregion
 

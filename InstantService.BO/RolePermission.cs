@@ -19,7 +19,7 @@ namespace InstantService.BO
         /// <summary>
         /// Represent the module
         /// </summary>
-        public virtual Module Module { get; set; }
+        public virtual Module? Module { get; set; }
         
         /// <summary>
         /// Represent the role id
@@ -30,7 +30,7 @@ namespace InstantService.BO
         /// <summary>
         /// Represent the role
         /// </summary>
-        public virtual Role Role { get; set; }
+        public virtual Role? Role { get; set; }
         
         /// <summary>
         /// Specify if user can create data

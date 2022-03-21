@@ -26,8 +26,12 @@ namespace InstantService.BO
         /// <summary>
         /// Represent the icon of module
         /// </summary>
-        [Required]
-        public Media Icon { get; set; }
+        public Guid? IconId { get; set; }
+        
+        /// <summary>
+        /// Represent the icon of module
+        /// </summary>
+        public virtual Media? Icon { get; set; }
         
         #endregion
         

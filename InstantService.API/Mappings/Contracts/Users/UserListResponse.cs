@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using DelenscioUserWebservice.API.Mappings.Contracts;
 using InstantService.BO;
 
 namespace InstantService.API.Mappings.Contracts.Users

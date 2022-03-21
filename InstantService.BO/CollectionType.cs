@@ -32,12 +32,12 @@ namespace InstantService.BO
         /// <summary>
         /// Represent the product of collection
         /// </summary>
-        public virtual Product Product { get; set; }
+        public virtual Product? Product { get; set; }
 
         /// <summary>
         /// Represent all module permission for this role.
         /// </summary>
-        public virtual ICollection<Collection> Collections { get; set; }
+        public virtual ICollection<Collection>? Collections { get; set; }
         
         #endregion
         

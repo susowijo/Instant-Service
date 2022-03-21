@@ -20,12 +20,7 @@ namespace InstantService.BO
         /// <summary>
         /// Represent all module permission for this role.
         /// </summary>
-        public virtual ICollection<RolePermission> RolePermissions { get; set; }
-
-        /// <summary>
-        /// Represent all user who have this role.
-        /// </summary>
-        public virtual ICollection<User> Users { get; set; }
+        public virtual ICollection<RolePermission>? RolePermissions { get; set; }
         
         #endregion
         

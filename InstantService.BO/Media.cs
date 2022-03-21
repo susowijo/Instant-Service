@@ -33,25 +33,12 @@ namespace InstantService.BO
         /// <summary>
         /// Represent the Media extension 
         /// </summary>
-        [Required]
         public string Extension { get; set; }
 
         /// <summary>
         /// Represent the Media size 
         /// </summary>
-        [Required]
         public double Size { get; set; }
-
-        /// <summary>
-        /// Represent the id of titular of IdPaper
-        /// </summary>
-        public Guid? UserId { get; set; }
-
-        /// <summary>
-        /// Represent the titular of IdPaper
-        /// </summary>
-        public virtual User User { get; set; }
-        public Guid CollectionDetaiId { get; set; }
         
         #endregion
 

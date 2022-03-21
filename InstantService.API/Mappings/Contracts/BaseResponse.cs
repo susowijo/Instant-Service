@@ -1,4 +1,4 @@
-namespace DelenscioUserWebservice.API.Mappings.Contracts
+namespace InstantService.API.Mappings.Contracts
 {
     /// <summary>
     /// 

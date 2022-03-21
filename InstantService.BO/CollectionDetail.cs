@@ -25,16 +25,26 @@ namespace InstantService.BO
         public Guid CollectionId { get; set; }
         
         /// <summary>
-        /// Represent the id of collection
+        /// Represent the payment identification code
         /// </summary>
         [Required]
-        public string PaymentId { get; set; }
+        public string PaymentCode { get; set; }
         
         /// <summary>
-        /// Represent the id of collection
+        /// Represent the id of payment picture
         /// </summary>
-        [Required]
-        public Media PaymentPicture { get; set; }
+        //[Required]
+        public Guid? PaymentPictureId { get; set; }
+        
+        /// <summary>
+        /// Represent the payment picture
+        /// </summary>
+        public virtual Media? PaymentPicture { get; set; }
+        
+        /// <summary>
+        /// Represent the collection
+        /// </summary>
+        public virtual Collection? Collection { get; set; }
         
         #endregion
         

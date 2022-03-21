@@ -68,7 +68,7 @@ namespace InstantService.API.DAL.Repositories.Users
         public override async  Task<BaseResult<User>>  CreateAsync(User obj, bool validateEntity = false)
         {
             var checkPassword = (obj.Password?.Length > 5);
-            int age = DateTime.Now.Year - obj.Birthday.Year;
+            int age = (DateTime.Now.Year - obj.Birthday?.Year) ?? 10;
             var checkAge = (age >= 10 && age <= 110);
 
             if (checkAge)

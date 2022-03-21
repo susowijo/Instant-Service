@@ -19,7 +19,7 @@ namespace InstantService.BO
         /// <summary>
         /// Represent the user
         /// </summary>
-        public virtual User User { get; set; }
+        public virtual User? User { get; set; }
         
         /// <summary>
         /// Represent the role id
@@ -30,7 +30,7 @@ namespace InstantService.BO
         /// <summary>
         /// Represent the role
         /// </summary>
-        public virtual Role Role { get; set; }
+        public virtual Role? Role { get; set; }
         
         #endregion
         

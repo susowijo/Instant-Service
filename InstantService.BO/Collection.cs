@@ -24,14 +24,19 @@ namespace InstantService.BO
         public StopStatusEnum? Stop { get; set; }
 
         /// <summary>
-        /// Represent the collection mode whit product we will have an end.
+        /// Represent the collection type id with product we will have an end.
         /// </summary>
-        public virtual CollectionType CollectionType { get; set; }
+        public Guid CollectionTypeId { get; set; }
+
+        /// <summary>
+        /// Represent the collection type with product we will have an end.
+        /// </summary>
+        public virtual CollectionType? CollectionType { get; set; }
 
         /// <summary>
         /// Represent all module permission for this role.
         /// </summary>
-        public virtual ICollection<CollectionDetail> CollectionDetails { get; set; }
+        public virtual ICollection<CollectionDetail>?  CollectionDetails { get; set; }
         
         #endregion
         

@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using DelenscioUserWebservice.API.Mappings.Contracts;
 
 namespace InstantService.API.Mappings.Contracts.Users
 {

@@ -33,6 +33,8 @@ namespace InstantService.API.Services.Utils
                             EnvironmentEnum.Test;
             #elif PROD
                             EnvironmentEnum.Prod;
+            #else 
+                            EnvironmentEnum.Debug;
             #endif
     }
 }

@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>df3c8286-3cde-4705-9b6f-eed5ec90e563</UserSecretsId>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <StartupObject>InstantService.API.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

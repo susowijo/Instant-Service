@@ -29,12 +29,12 @@ namespace InstantService.API
                     var env = InstantService.API.Services.Utils.Environments.Current.ToString();
                     webBuilder
                         .UseEnvironment(env)
-                        .UseStartup<Startup>()
-                        .UseKestrel(options =>
-                        {
-                            options.Limits.MaxRequestBodySize = int.MaxValue;
-                        });
-                    //.UseUrls("http://localhost:7174"); 
+                        .UseStartup<Startup>();
+                        //.UseKestrel(options =>
+                        //{
+                        //    options.Limits.MaxRequestBodySize = int.MaxValue;
+                        //});
+                        //.UseUrls("http://localhost:7174"); 
                 });
     }
 }

@@ -427,6 +427,12 @@ namespace InstantService.API.DAL.Migrations
                 table: "Users",
                 column: "PhoneNumber",
                 unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Users_PhoneNumber",
+                table: "Users",
+                column: "PhoneNumber",
+                unique: true);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
